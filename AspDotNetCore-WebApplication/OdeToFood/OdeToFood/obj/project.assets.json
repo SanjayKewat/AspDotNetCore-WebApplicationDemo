@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "OdeToFood.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/OdeToFood.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OdeToFood.Core.dll": {}
+        }
+      },
+      "OdeToFood.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "OdeToFood.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OdeToFood.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OdeToFood.Data.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "OdeToFood.Core/1.0.0": {
+      "type": "project",
+      "path": "../OdeToFood.Core/OdeToFood.Core.csproj",
+      "msbuildProject": "../OdeToFood.Core/OdeToFood.Core.csproj"
+    },
+    "OdeToFood.Data/1.0.0": {
+      "type": "project",
+      "path": "../OdeToFood.Data/OdeToFood.Data.csproj",
+      "msbuildProject": "../OdeToFood.Data/OdeToFood.Data.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "OdeToFood.Data >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\BAM20715\\.nuget\\packages\\": {}
@@ -13,11 +50,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\POC\\DotNet-Core\\AspDotNetCore-WebApplication\\OdeToFood\\OdeToFood\\OdeToFood.csproj",
+      "projectUniqueName": "D:\\POC\\DotNet-Core\\AspDotNetCore-WebApplicationDemo\\AspDotNetCore-WebApplication\\OdeToFood\\OdeToFood\\OdeToFood.csproj",
       "projectName": "OdeToFood",
-      "projectPath": "D:\\POC\\DotNet-Core\\AspDotNetCore-WebApplication\\OdeToFood\\OdeToFood\\OdeToFood.csproj",
+      "projectPath": "D:\\POC\\DotNet-Core\\AspDotNetCore-WebApplicationDemo\\AspDotNetCore-WebApplication\\OdeToFood\\OdeToFood\\OdeToFood.csproj",
       "packagesPath": "C:\\Users\\BAM20715\\.nuget\\packages\\",
-      "outputPath": "D:\\POC\\DotNet-Core\\AspDotNetCore-WebApplication\\OdeToFood\\OdeToFood\\obj\\",
+      "outputPath": "D:\\POC\\DotNet-Core\\AspDotNetCore-WebApplicationDemo\\AspDotNetCore-WebApplication\\OdeToFood\\OdeToFood\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\BAM20715\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -33,7 +70,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\POC\\DotNet-Core\\AspDotNetCore-WebApplicationDemo\\AspDotNetCore-WebApplication\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj": {
+              "projectPath": "D:\\POC\\DotNet-Core\\AspDotNetCore-WebApplicationDemo\\AspDotNetCore-WebApplication\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

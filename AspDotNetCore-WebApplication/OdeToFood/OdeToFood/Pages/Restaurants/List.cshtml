@@ -1,5 +1,20 @@
 ﻿@page
-@model OdeToFood.Pages.Resturants.ListModel
+@model ListModel
 @{
 }
 <h1>Resturants</h1>
+
+<!--here priting the variable-->
+<h4>@Model.Message</h4>
+
+<table class="table">
+    @foreach (var item in Model.Restaurants)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Name</td>
+            <td>@item.Location</td>
+            <td>@item.Cuisine</td>
+        </tr>
+    }
+</table>

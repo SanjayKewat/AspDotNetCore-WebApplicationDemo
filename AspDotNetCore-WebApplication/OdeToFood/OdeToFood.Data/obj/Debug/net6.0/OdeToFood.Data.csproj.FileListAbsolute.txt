@@ -1,0 +1,15 @@
+D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood.Data\bin\Debug\net6.0\OdeToFood.Data.deps.json
+D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood.Data\bin\Debug\net6.0\OdeToFood.Data.dll
+D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood.Data\bin\Debug\net6.0\OdeToFood.Data.pdb
+D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood.Data\bin\Debug\net6.0\OdeToFood.Core.dll
+D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood.Data\bin\Debug\net6.0\OdeToFood.Core.pdb
+D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood.Data\obj\Debug\net6.0\OdeToFood.Data.csproj.AssemblyReference.cache
+D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood.Data\obj\Debug\net6.0\OdeToFood.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood.Data\obj\Debug\net6.0\OdeToFood.Data.AssemblyInfoInputs.cache
+D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood.Data\obj\Debug\net6.0\OdeToFood.Data.AssemblyInfo.cs
+D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood.Data\obj\Debug\net6.0\OdeToFood.Data.csproj.CoreCompileInputs.cache
+D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood.Data\obj\Debug\net6.0\OdeToFood.Data.csproj.CopyComplete
+D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood.Data\obj\Debug\net6.0\OdeToFood.Data.dll
+D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood.Data\obj\Debug\net6.0\refint\OdeToFood.Data.dll
+D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood.Data\obj\Debug\net6.0\OdeToFood.Data.pdb
+D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood.Data\obj\Debug\net6.0\ref\OdeToFood.Data.dll
