@@ -2,11 +2,28 @@
 @model ListModel
 @{
 }
-<h1>Resturants</h1>
+<h1>Restaurants</h1>
 
 <!--here priting the variable-->
 <h4>@Model.Message</h4>
 
+<!-- used for model binding used to pass data to server-->
+<form action="" method="get">
+    <div class="form-group">
+        <div class="input-group">
+            @*        <!--Note:-  searchTerm parameter match with name attribute, normal way -->
+                <input type="search" class="form-control" name="searchTerm" value=""/>*@
+            <!--Recommended way using tag helper asp-for-->
+            <input type="search" class="form-control" asp-for="SearchTerm" value="" />
+            <span class="input-group-btn">
+                <button class="btn-primary btn">
+                    Search
+                </button>
+            </span>
+        </div>
+    </div>
+</form>
+<div>Search By:- <strong>@Model.SearchTerm</strong></div>
 <table class="table">
     @foreach (var item in Model.Restaurants)
     {
@@ -15,6 +32,12 @@
             <td>@item.Name</td>
             <td>@item.Location</td>
             <td>@item.Cuisine</td>
+            <td>
+                <a class="btn btn-sm btn-primary" asp-page="./Details" asp-route-id="@item.Id">Goto Details Page</a>
+            </td>
+            <td>
+                <a class="btn btn-sm btn-primary" asp-page="./Edit" asp-route-id="@item.Id">Edit the Details</a>
+            </td>
         </tr>
     }
 </table>

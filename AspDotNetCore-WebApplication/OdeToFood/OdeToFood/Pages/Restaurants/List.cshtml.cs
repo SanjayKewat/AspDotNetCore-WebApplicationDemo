@@ -14,6 +14,12 @@ namespace OdeToFood.Pages.Restaurants
         public string Message { get; set; }
         public IEnumerable<Restaurant> Restaurants { get; set; }
 
+        //[BindProperty] used for input output parameter
+        //ByDefault this property support only httppost method
+               
+        [BindProperty(SupportsGet =true)] // forcely define to support httpget method
+        public string SearchTerm { get; set; }
+
         //here initializing IConfiguration interface
         public ListModel(IConfiguration configuration, IRestaurantData restaurantData)
         {
@@ -22,11 +28,12 @@ namespace OdeToFood.Pages.Restaurants
         }
 
         //this method handle the get request
+        //public void OnGet(string searchTerm) //search parameter received  from html & send the data
         public void OnGet()
         {
             //Message = "Hello, world!";
             Message = _config["Message"];//here reading value from appsettings.json file, using IConfiguration 
-            Restaurants = RestaurantData.GetAllData(); // get all data from core project
+            Restaurants = RestaurantData.GetRestaurantByName(SearchTerm); // get all data from core project, SearchTerm property used here
         }
     }
 }
