@@ -1,25 +1,30 @@
-﻿@page "{id:int}"
+﻿@page "{id:int?}"
 @using OdeToFood.Core
 @model OdeToFood.Pages.Restaurants.EditModel
 @{
+    
 }
 
-<h2>Editing @Model.Restaurant.Name</h2>
+<h2>@ViewData["Title"] @Model.Restaurant.Name</h2>
 <a asp-page="./List">Goto List Page</a>
 <form method="post">
     <input type="hidden" asp-for="Restaurant.Id"/>
     <div class="form-group">
         <label asp-for="Restaurant.Name"></label>
         <input asp-for="Restaurant.Name" class="form-control">
+        <!--apply validation-->
+        <span class="text-danger" asp-validation-for="Restaurant.Name"></span>
     </div>
     <div class="form-group">
         <label asp-for="Restaurant.Location"></label>
         <input asp-for="Restaurant.Location" class="form-control">
+         <span class="text-danger" asp-validation-for="Restaurant.Location"></span>
     </div>
      <div class="form-group">
         <label asp-for="Restaurant.Cuisine"></label>
         <!--Bind the dropdown-->
        <select class="form-control" asp-for="Restaurant.Cuisine" asp-items="Model.Cuisines"></select>
+        <span class="text-danger" asp-validation-for="Restaurant.Cuisine"></span>
     </div>
     <button type="submit" class="btn-primary btn">Save</button>
 </form>

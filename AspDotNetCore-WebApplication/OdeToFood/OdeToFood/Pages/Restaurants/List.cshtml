@@ -24,20 +24,21 @@
     </div>
 </form>
 <div>Search By:- <strong>@Model.SearchTerm</strong></div>
+<a class="btn-primary btn" asp-page="./Edit">Add New Restaurants</a>
 <table class="table">
-    @foreach (var item in Model.Restaurants)
-    {
-        <tr>
-            <td>@item.Id</td>
-            <td>@item.Name</td>
-            <td>@item.Location</td>
-            <td>@item.Cuisine</td>
-            <td>
-                <a class="btn btn-sm btn-primary" asp-page="./Details" asp-route-id="@item.Id">Goto Details Page</a>
-            </td>
-            <td>
-                <a class="btn btn-sm btn-primary" asp-page="./Edit" asp-route-id="@item.Id">Edit the Details</a>
-            </td>
-        </tr>
-    }
-</table>
+        @foreach (var item in Model.Restaurants)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.Location</td>
+                <td>@item.Cuisine</td>
+                <td>
+                    <a class="btn btn-sm btn-primary" asp-page="./Details" asp-route-id="@item.Id">Goto Details Page</a>
+                </td>
+                <td>
+                    <a class="btn btn-sm btn-primary" asp-page="./Edit" asp-route-id="@item.Id">Edit the Details</a>
+                </td>
+            </tr>
+        }
+    </table>

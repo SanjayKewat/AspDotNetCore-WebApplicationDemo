@@ -2,11 +2,11 @@
 i:{00000000-0000-0000-0000-000000000000}:OdeToFood.sln
 ++OdeToFood.Core
 i:{00000000-0000-0000-0000-000000000000}:OdeToFood.Core
-i:{d474fdc6-c2fe-41a7-97d3-0f0814eba9fe}:d:\poc\dotnet-core\aspdotnetcore-webapplicationdemo\aspdotnetcore-webapplication\odetofood\odetofood.core\odetofood.core.csproj
+i:{d474fdc6-c2fe-41a7-97d3-0f0814eba9fe}:d:\poc\dotnet-core\aspdotnetcore-webapplicationdemo\aspdotnetcore-webapplication\odetofood\odetofood.core\bin\debug\net6.0\odetofood.core.dll
 ++Dependencies
-i:{b88b7c29-9ee0-40ce-9d32-36ec659bcd04}:>301
-i:{d474fdc6-c2fe-41a7-97d3-0f0814eba9fe}:>302
-i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:>460
+i:{b88b7c29-9ee0-40ce-9d32-36ec659bcd04}:>308
+i:{d474fdc6-c2fe-41a7-97d3-0f0814eba9fe}:>307
+i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:>472
 ++CuisineType.cs
 i:{b88b7c29-9ee0-40ce-9d32-36ec659bcd04}:d:\poc\dotnet-core\aspdotnetcore-webapplicationdemo\aspdotnetcore-webapplication\odetofood\odetofood.core\cuisinetype.cs
 ++Restaurant.cs
@@ -37,7 +37,7 @@ i:{d474fdc6-c2fe-41a7-97d3-0f0814eba9fe}:d:\poc\dotnet-core\aspdotnetcore-webapp
 i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:d:\poc\dotnet-core\aspdotnetcore-webapplicationdemo\aspdotnetcore-webapplication\odetofood\odetofood\microsoft.netcore.app
 ++OdeToFood.Data
 i:{00000000-0000-0000-0000-000000000000}:OdeToFood.Data
-i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:d:\poc\dotnet-core\aspdotnetcore-webapplicationdemo\aspdotnetcore-webapplication\odetofood\odetofood.data\odetofood.data.csproj
+i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:d:\poc\dotnet-core\aspdotnetcore-webapplicationdemo\aspdotnetcore-webapplication\odetofood\odetofood.data\bin\debug\net6.0\odetofood.data.dll
 ++IRestaurantData.cs
 i:{d474fdc6-c2fe-41a7-97d3-0f0814eba9fe}:d:\poc\dotnet-core\aspdotnetcore-webapplicationdemo\aspdotnetcore-webapplication\odetofood\odetofood.data\irestaurantdata.cs
 ++Projects
@@ -46,11 +46,28 @@ i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:projects
 ++OdeToFood
 i:{00000000-0000-0000-0000-000000000000}:OdeToFood
 ++Connected Services 
-i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:>461
+i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:>473
+++Microsoft.AspNetCore.Analyzers
+i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.Extensions.Logging.Generators
+i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{d474fdc6-c2fe-41a7-97d3-0f0814eba9fe}:c:\users\bam20715\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++Microsoft.AspNetCore.App
+i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:d:\poc\dotnet-core\aspdotnetcore-webapplicationdemo\aspdotnetcore-webapplication\odetofood\odetofood\microsoft.aspnetcore.app
 ++Properties
 i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:d:\poc\dotnet-core\aspdotnetcore-webapplicationdemo\aspdotnetcore-webapplication\odetofood\odetofood\properties\
-++launchSettings.json
-i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:d:\poc\dotnet-core\aspdotnetcore-webapplicationdemo\aspdotnetcore-webapplication\odetofood\odetofood\properties\launchsettings.json
 ++wwwroot
 i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:d:\poc\dotnet-core\aspdotnetcore-webapplicationdemo\aspdotnetcore-webapplication\odetofood\odetofood\wwwroot\
 ++css
@@ -98,10 +115,22 @@ i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:d:\poc\dotnet-core\aspdotnetcore-webapp
 i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:d:\poc\dotnet-core\aspdotnetcore-webapplicationdemo\aspdotnetcore-webapplication\odetofood\odetofood\pages\
 ++Restaurants
 i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:d:\poc\dotnet-core\aspdotnetcore-webapplicationdemo\aspdotnetcore-webapplication\odetofood\odetofood\pages\restaurants\
+++Details.cshtml
+i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:d:\poc\dotnet-core\aspdotnetcore-webapplicationdemo\aspdotnetcore-webapplication\odetofood\odetofood\pages\restaurants\details.cshtml
+++Details.cshtml.cs
+i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:d:\poc\dotnet-core\aspdotnetcore-webapplicationdemo\aspdotnetcore-webapplication\odetofood\odetofood\pages\restaurants\details.cshtml.cs
+++Edit.cshtml
+i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:d:\poc\dotnet-core\aspdotnetcore-webapplicationdemo\aspdotnetcore-webapplication\odetofood\odetofood\pages\restaurants\edit.cshtml
+++Edit.cshtml.cs
+i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:d:\poc\dotnet-core\aspdotnetcore-webapplicationdemo\aspdotnetcore-webapplication\odetofood\odetofood\pages\restaurants\edit.cshtml.cs
 ++List.cshtml
 i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:d:\poc\dotnet-core\aspdotnetcore-webapplicationdemo\aspdotnetcore-webapplication\odetofood\odetofood\pages\restaurants\list.cshtml
 ++List.cshtml.cs
 i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:d:\poc\dotnet-core\aspdotnetcore-webapplicationdemo\aspdotnetcore-webapplication\odetofood\odetofood\pages\restaurants\list.cshtml.cs
+++NotFound.cshtml
+i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:d:\poc\dotnet-core\aspdotnetcore-webapplicationdemo\aspdotnetcore-webapplication\odetofood\odetofood\pages\restaurants\notfound.cshtml
+++NotFound.cshtml.cs
+i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:d:\poc\dotnet-core\aspdotnetcore-webapplicationdemo\aspdotnetcore-webapplication\odetofood\odetofood\pages\restaurants\notfound.cshtml.cs
 ++Shared
 i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:d:\poc\dotnet-core\aspdotnetcore-webapplicationdemo\aspdotnetcore-webapplication\odetofood\odetofood\pages\shared\
 ++_Layout.cshtml
@@ -125,25 +154,8 @@ i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:d:\poc\dotnet-core\aspdotnetcore-webapp
 ++Program.cs
 i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:d:\poc\dotnet-core\aspdotnetcore-webapplicationdemo\aspdotnetcore-webapplication\odetofood\odetofood\program.cs
 ++No service dependencies discovered
-i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:>462
-++Microsoft.AspNetCore.Analyzers
-i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
-++Microsoft.AspNetCore.App.Analyzers
-i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
-++Microsoft.AspNetCore.App.CodeFixes
-i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
-++Microsoft.AspNetCore.Components.Analyzers
-i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
-++Microsoft.AspNetCore.Mvc.Analyzers
-i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
-++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
-i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
-++Microsoft.Extensions.Logging.Generators
-i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
-++Microsoft.NET.Sdk.Razor.SourceGenerators
-i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
-++Microsoft.AspNetCore.App
-i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:d:\poc\dotnet-core\aspdotnetcore-webapplicationdemo\aspdotnetcore-webapplication\odetofood\odetofood\microsoft.aspnetcore.app
+++launchSettings.json
+i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:d:\poc\dotnet-core\aspdotnetcore-webapplicationdemo\aspdotnetcore-webapplication\odetofood\odetofood\properties\launchsettings.json
 ++bootstrap.css.map
 i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:d:\poc\dotnet-core\aspdotnetcore-webapplicationdemo\aspdotnetcore-webapplication\odetofood\odetofood\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 ++bootstrap.min.css
@@ -250,3 +262,24 @@ i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:d:\poc\dotnet-core\aspdotnetcore-webapp
 i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:d:\poc\dotnet-core\aspdotnetcore-webapplicationdemo\aspdotnetcore-webapplication\odetofood\odetofood\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
 ++jquery.validate.min.js
 i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:d:\poc\dotnet-core\aspdotnetcore-webapplicationdemo\aspdotnetcore-webapplication\odetofood\odetofood\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++Packages
+i:{d474fdc6-c2fe-41a7-97d3-0f0814eba9fe}:packages
+++Microsoft.EntityFrameworkCore (6.0.4)
+i:{d474fdc6-c2fe-41a7-97d3-0f0814eba9fe}:>518
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{d474fdc6-c2fe-41a7-97d3-0f0814eba9fe}:c:\users\bam20715\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.4\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:c:\users\bam20715\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.4\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.4)
+i:{d474fdc6-c2fe-41a7-97d3-0f0814eba9fe}:>522
+++Microsoft.EntityFrameworkCore.Design (6.0.4)
+i:{d474fdc6-c2fe-41a7-97d3-0f0814eba9fe}:>523
+++OdeToFoodDbContext.cs
+i:{d474fdc6-c2fe-41a7-97d3-0f0814eba9fe}:d:\poc\dotnet-core\aspdotnetcore-webapplicationdemo\aspdotnetcore-webapplication\odetofood\odetofood.data\odetofooddbcontext.cs
+++SQL Server Database (ConnectionStrings:OdeToFoodDb)
+i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:>526
+++SQL Server Database dependency with connectionId 'ConnectionStrings:OdeToFoodDb' is detected
+i:{d2fab3f7-cd1e-4025-a85f-d89aa12e79ef}:>527
+++InMemoryRestaurantData.cs
+i:{d474fdc6-c2fe-41a7-97d3-0f0814eba9fe}:d:\poc\dotnet-core\aspdotnetcore-webapplicationdemo\aspdotnetcore-webapplication\odetofood\odetofood.data\inmemoryrestaurantdata.cs
+++SqlRestaurantData.cs
+i:{d474fdc6-c2fe-41a7-97d3-0f0814eba9fe}:d:\poc\dotnet-core\aspdotnetcore-webapplicationdemo\aspdotnetcore-webapplication\odetofood\odetofood.data\sqlrestaurantdata.cs
