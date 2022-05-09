@@ -37,10 +37,16 @@ namespace OdeToFood.Data
             return restaurant;
         }
 
+        public int GetCountOfRestaurant()
+        {
+            return _db.Restaurants.Count();
+        }
+
         public Restaurant GetRestaurantById(int id)
         {
             //here Find() search the data on primary key basis
-            return _db.Restaurants.FirstOrDefault(x=>x.Id == id);
+            return _db.Restaurants.Find(id);
+            //return _db.Restaurants.FirstOrDefault(x => x.Id == id);
         }
 
         public IEnumerable<Restaurant> GetRestaurantByName(string name)

@@ -1,6 +1,7 @@
 ﻿@page
 @model ListModel
 @{
+    ViewData["Title"] = "Restaurants";
 }
 <h1>Restaurants</h1>
 
@@ -25,20 +26,33 @@
 </form>
 <div>Search By:- <strong>@Model.SearchTerm</strong></div>
 <a class="btn-primary btn" asp-page="./Edit">Add New Restaurants</a>
-<table class="table">
-        @foreach (var item in Model.Restaurants)
-        {
-            <tr>
-                <td>@item.Id</td>
-                <td>@item.Name</td>
-                <td>@item.Location</td>
-                <td>@item.Cuisine</td>
-                <td>
-                    <a class="btn btn-sm btn-primary" asp-page="./Details" asp-route-id="@item.Id">Goto Details Page</a>
-                </td>
-                <td>
-                    <a class="btn btn-sm btn-primary" asp-page="./Edit" asp-route-id="@item.Id">Edit the Details</a>
-                </td>
-            </tr>
-        }
-    </table>
+<!--Here calling partial view-->
+@foreach(var item in Model.Restaurants)
+{
+    <!--here name parameter is used for pass the partial page name, model parameter received restaurant object-->
+        <partial name="_Summary" model="item"/>
+}
+@*<table class="table">
+@foreach (var item in Model.Restaurants)
+{
+    <tr>
+        <td>@item.Id</td>
+        <td>@item.Name</td>
+        <td>@item.Location</td>
+        <td>@item.Cuisine</td>
+        <td>
+            <a class="btn btn-sm btn-primary" asp-page="./Details" asp-route-id="@item.Id">Goto Details Page</a>
+        </td>
+        <td>
+            <a class="btn btn-sm btn-primary" asp-page="./Edit" asp-route-id="@item.Id">Edit the Details</a>
+        </td>
+        <td>
+            <a class="btn btn-sm btn-primary" asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+        </td>
+    </tr>
+}
+</table>*@
+
+    @section footer{
+        <h6>@Model.Message</h6>
+    }
