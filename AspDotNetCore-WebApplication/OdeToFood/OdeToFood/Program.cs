@@ -1,4 +1,6 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using OdeToFood.Api;
 using OdeToFood.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -26,7 +28,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-
+app.MapControllers(); //without adding this api controller not working
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
