@@ -1,6 +1,4 @@
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using OdeToFood.Api;
 using OdeToFood.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,22 +18,24 @@ builder.Services.AddDbContextPool<OdeToFoodDbContext>(options =>
 builder.Services.AddScoped<IRestaurantData, SqlRestaurantData>();
 var app = builder.Build();
 
+//here declare middleware, all are middleware after app.(variable)
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
+    app.UseHsts();  //allow established secure connections
 }
 
 app.MapControllers(); //without adding this api controller not working
 app.UseHttpsRedirection();
-app.UseStaticFiles();
+app.UseStaticFiles();  //install static files & used it
 
 app.UseRouting();
 
 app.UseAuthorization();
-
+app.UseCookiePolicy(); //this method allow to used cookie in the application
+app.UseAuthentication();
 app.MapRazorPages();
 
 app.Run();

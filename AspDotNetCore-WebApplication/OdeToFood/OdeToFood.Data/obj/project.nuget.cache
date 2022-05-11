@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "px2y53LF2eKqZXNeVPYm4KmPN47jKXGffwddocjgxGTeKZsHpOfGRNtvAnqN3xRKwRxjvMx9tAA6aZ/GU6V3Ow==",
+  "dgSpecHash": "L7eAqfDUMYAfFvrvF6G4/0XeGY0Ss5XroC4Ba3LUi27XXFQC4lTnWnzhaRHle5dmJqfEopXs8bBMkbA4NHVwtA==",
   "success": true,
   "projectFilePath": "D:\\POC\\DotNet-Core\\AspDotNetCore-WebApplicationDemo\\AspDotNetCore-WebApplication\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj",
   "expectedPackageFiles": [
@@ -45,7 +45,10 @@
     "C:\\Users\\BAM20715\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",
     "C:\\Users\\BAM20715\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\BAM20715\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
-    "C:\\Users\\BAM20715\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
+    "C:\\Users\\BAM20715\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
+    "C:\\Users\\BAM20715\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.4\\microsoft.netcore.app.runtime.win-x64.6.0.4.nupkg.sha512",
+    "C:\\Users\\BAM20715\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.4\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.4.nupkg.sha512",
+    "C:\\Users\\BAM20715\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.4\\microsoft.aspnetcore.app.runtime.win-x64.6.0.4.nupkg.sha512"
   ],
   "logs": []
 }

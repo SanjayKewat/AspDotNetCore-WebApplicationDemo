@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "O1/6+tUG3EpCmnPCZu2fMHoMmBbJzqr/SLI4FVaSFwDtSh4qDXkUKVeNvgfz327GGdiV1Lmc73nfizwegzpLRQ==",
+  "dgSpecHash": "sIZmQdrhveLMHQaylMvUee4UtYsbTPUB+uyCSYBFQYgyJcrMJddK0VWvZVRfkQZZwtQhs+z+7oK5Sx6UbRv1QQ==",
   "success": true,
   "projectFilePath": "D:\\POC\\DotNet-Core\\AspDotNetCore-WebApplicationDemo\\AspDotNetCore-WebApplication\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\BAM20715\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.4\\microsoft.netcore.app.runtime.win-x64.6.0.4.nupkg.sha512",
+    "C:\\Users\\BAM20715\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.4\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.4.nupkg.sha512",
+    "C:\\Users\\BAM20715\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.4\\microsoft.aspnetcore.app.runtime.win-x64.6.0.4.nupkg.sha512"
+  ],
   "logs": []
 }

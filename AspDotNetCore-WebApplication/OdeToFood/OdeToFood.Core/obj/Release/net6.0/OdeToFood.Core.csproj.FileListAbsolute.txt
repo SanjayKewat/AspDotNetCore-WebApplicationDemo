@@ -1,0 +1,12 @@
+D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood.Core\bin\Release\net6.0\OdeToFood.Core.deps.json
+D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood.Core\bin\Release\net6.0\OdeToFood.Core.dll
+D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood.Core\bin\Release\net6.0\OdeToFood.Core.pdb
+D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood.Core\obj\Release\net6.0\OdeToFood.Core.csproj.AssemblyReference.cache
+D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood.Core\obj\Release\net6.0\OdeToFood.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood.Core\obj\Release\net6.0\OdeToFood.Core.AssemblyInfoInputs.cache
+D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood.Core\obj\Release\net6.0\OdeToFood.Core.AssemblyInfo.cs
+D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood.Core\obj\Release\net6.0\OdeToFood.Core.csproj.CoreCompileInputs.cache
+D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood.Core\obj\Release\net6.0\OdeToFood.Core.dll
+D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood.Core\obj\Release\net6.0\refint\OdeToFood.Core.dll
+D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood.Core\obj\Release\net6.0\OdeToFood.Core.pdb
+D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood.Core\obj\Release\net6.0\ref\OdeToFood.Core.dll

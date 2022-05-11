@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2022-05-11T11:32:10.9774161Z;</History>
+  </PropertyGroup>
+</Project>
