@@ -15,7 +15,8 @@ builder.Services.AddDbContextPool<OdeToFoodDbContext>(options =>
 });
 
 //here register/inject the service, call dependency Injection
-builder.Services.AddScoped<IRestaurantData, SqlRestaurantData>();
+//builder.Services.AddScoped<IRestaurantData, InMemoryRestaurantData>(); //working with static data
+builder.Services.AddScoped<IRestaurantData, SqlRestaurantData>(); //working with SQL Server data
 var app = builder.Build();
 
 //here declare middleware, all are middleware after app.(variable)

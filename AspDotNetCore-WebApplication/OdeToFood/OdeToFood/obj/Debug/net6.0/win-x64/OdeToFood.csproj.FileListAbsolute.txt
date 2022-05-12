@@ -608,3 +608,4 @@ D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication
 D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood\obj\Debug\net6.0\win-x64\OdeToFood.pdb
 D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood\obj\Debug\net6.0\win-x64\OdeToFood.genruntimeconfig.cache
 D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood\obj\Debug\net6.0\win-x64\ref\OdeToFood.dll
+D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood\bin\Debug\net6.0\win-x64\appsettings.Production.json

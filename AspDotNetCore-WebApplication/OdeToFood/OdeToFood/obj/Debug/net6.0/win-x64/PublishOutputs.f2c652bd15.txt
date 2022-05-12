@@ -1,6 +1,7 @@
 c:\temp\odeToFood\OdeToFood.exe
 c:\temp\odeToFood\appsettings.Development.json
 c:\temp\odeToFood\appsettings.json
+c:\temp\odeToFood\appsettings.Production.json
 c:\temp\odeToFood\OdeToFood.dll
 c:\temp\odeToFood\OdeToFood.runtimeconfig.json
 c:\temp\odeToFood\OdeToFood.pdb
