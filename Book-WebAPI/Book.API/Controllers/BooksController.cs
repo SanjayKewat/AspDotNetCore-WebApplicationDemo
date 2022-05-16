@@ -28,7 +28,7 @@ namespace Book.API.Controllers
 
         [HttpGet]
         [Route("{id}", Name = "GetBook")]
-        [BookResultFilter] //here apply the filter that convert the response into single book(model) object
+        [BookWithCoversResultFilterAttribute] //here apply the filter that convert the response into single book(model) object
         public async Task<IActionResult> GetBook(Guid id)
         {
             var book = await _bookRepository.GetAuthorBookAsync(id);
@@ -36,7 +36,8 @@ namespace Book.API.Controllers
             {
                 return NotFound();
             }
-            return Ok(book);
+            var bookCovers = await _bookRepository.GetBookCoversAsync(id);
+            return Ok((book, bookCovers));
         }
 
         [HttpPost]

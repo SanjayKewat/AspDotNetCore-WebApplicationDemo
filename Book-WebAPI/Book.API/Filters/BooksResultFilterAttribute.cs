@@ -7,12 +7,6 @@ namespace Book.API.Filters
     //this attribute map for mulitple books object
     public class BooksResultFilterAttribute : ResultFilterAttribute
     {
-        //private readonly IMapper _mapper;
-        //public BookResultFilterAttribute(IMapper mapper)
-        //{
-        //    _mapper = mapper;
-        //}
-
         //using this action filter we are validating state of model
         public override async Task OnResultExecutionAsync(ResultExecutingContext context, ResultExecutionDelegate next)
         {

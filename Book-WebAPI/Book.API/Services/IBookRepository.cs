@@ -1,4 +1,5 @@
 ﻿using Book.API.Entities;
+using Book.API.ExternalModels;
 
 namespace Book.API.Services
 {
@@ -6,10 +7,16 @@ namespace Book.API.Services
     {
         //here task keyword represent Async
         Task<IEnumerable<AuthorBook>> GetAuthorBooksAsync();
+
         Task<AuthorBook> GetAuthorBookAsync(Guid id);
 
-        void AddBook(AuthorBook authorBook);
+        Task<IEnumerable<AuthorBook>> GetAuthorBooksAsync(IEnumerable<Guid> bookIds);
 
+        void AddBook(AuthorBook authorBook);
+        void AddBooks(IEnumerable<AuthorBook> authorBookToAdds);
+
+        Task<BookCover> GetBookCoverAsync(string converId);
+        Task<IEnumerable<BookCover>> GetBookCoversAsync(Guid bookIds);
         Task<bool> SaveChangesAsync();
     }
 }

@@ -18,6 +18,7 @@ builder.Services.AddDbContextPool<BookContext>(options =>
     options.UseSqlServer(configuration.GetConnectionString("BooksDBConnectionString"));
 });
 
+builder.Services.AddHttpClient();//Inject HttpClient
 //register/inject(dependency injection) the service for Lifetime
 builder.Services.AddScoped<IBookRepository, BookRepository>();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
