@@ -296,3 +296,4 @@ D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication
 D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood\bin\Debug\net6.0\runtimes\win-arm\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
 D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood\bin\Debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
 D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood\obj\Debug\net6.0\OdeToFood.MvcApplicationPartsAssemblyInfo.cs
+D:\POC\DotNet-Core\AspDotNetCore-WebApplicationDemo\AspDotNetCore-WebApplication\OdeToFood\OdeToFood\bin\Debug\net6.0\appsettings.Production.json
