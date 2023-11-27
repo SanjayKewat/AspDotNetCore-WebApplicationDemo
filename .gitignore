@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/JWT-WebApp/JWT-WebApp/bin/Debug/net6.0
+/JWT-WebApp/JWT-WebApp/obj/Debug/net6.0
