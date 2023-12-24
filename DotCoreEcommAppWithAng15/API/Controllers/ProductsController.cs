@@ -5,7 +5,9 @@ using System.Threading.Tasks;
 using Infrastructure.Data;
 using Core.Entities;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore; //ControllerBase come from this namespace
+using Microsoft.EntityFrameworkCore;
+using Core.Interfaces;
+using System.Reflection.Metadata.Ecma335; //ControllerBase come from this namespace
 
 namespace API.Controllers
 {
@@ -15,25 +17,38 @@ namespace API.Controllers
     {
         //This part is called dependency injections
         //here inject the service
-        private readonly StoreContext _storeContext;
-        public ProductsController(StoreContext storeContext)
+        public IProductRepository _productRepository { get; set; }
+        public ProductsController(IProductRepository productRepository)
         {
-            _storeContext = storeContext;
-            
+            this._productRepository = productRepository;
+
         }
 
         [HttpGet]
         public async Task<ActionResult<List<Product>>> GetProducts()
         {
-            var products = await _storeContext.Products.ToListAsync();
-            return products;
+            var products = await _productRepository.GetProductsAsync();
+            return Ok(products);
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<Product>> GetProduct(int id)
         {
-            var product = await _storeContext.Products.FirstOrDefaultAsync(x=>x.Id == id);
-            return product;
+            var product = await _productRepository.GetProductByIdAsync(id);
+            return Ok(product);
+        }
+
+        [HttpGet("brands")]
+        public async Task<ActionResult<IReadOnlyList<ProductBrand>>> GetProductBrands()
+        {
+            var brands = await _productRepository.GetProductBrandsAsync();
+            return Ok(brands);
+        }
+        [HttpGet("types")]
+        public async Task<ActionResult<IReadOnlyList<ProductType>>> GetProductTypes()
+        {
+            var productType = await _productRepository.GetProductTypesAsync();
+            return Ok(productType);
         }
 
         [HttpDelete("{id}")]
