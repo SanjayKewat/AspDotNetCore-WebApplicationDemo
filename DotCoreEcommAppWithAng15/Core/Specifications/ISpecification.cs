@@ -9,7 +9,7 @@ namespace Core.Specifications
     public interface ISpecification<T>
     {
         //here expres is a Func take type & return the bool value
-        Expression<Func<T, bool>> Criteria {get;}
+        Expression<Func<T, bool>> Criteria {get; }
 
         //this function take type & return the object
         //use for EF, Include syntax

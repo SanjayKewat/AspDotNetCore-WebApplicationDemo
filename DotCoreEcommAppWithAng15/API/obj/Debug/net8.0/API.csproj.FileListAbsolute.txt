@@ -131,3 +131,6 @@ G:\DotNetCore\AspDotNetCore-WebApplicationDemo\DotCoreEcommAppWithAng15\API\bin\
 G:\DotNetCore\AspDotNetCore-WebApplicationDemo\DotCoreEcommAppWithAng15\API\bin\Debug\net8.0\Infrastructure.dll
 G:\DotNetCore\AspDotNetCore-WebApplicationDemo\DotCoreEcommAppWithAng15\API\bin\Debug\net8.0\Infrastructure.pdb
 G:\DotNetCore\AspDotNetCore-WebApplicationDemo\DotCoreEcommAppWithAng15\API\bin\Debug\net8.0\Core.pdb
+G:\DotNetCore\AspDotNetCore-WebApplicationDemo\DotCoreEcommAppWithAng15\API\bin\Debug\net8.0\AutoMapper.dll
+G:\DotNetCore\AspDotNetCore-WebApplicationDemo\DotCoreEcommAppWithAng15\API\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+G:\DotNetCore\AspDotNetCore-WebApplicationDemo\DotCoreEcommAppWithAng15\API\bin\Debug\net8.0\API.staticwebassets.runtime.json
