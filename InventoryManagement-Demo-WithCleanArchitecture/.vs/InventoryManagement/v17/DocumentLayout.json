@@ -1,0 +1,312 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D948B19D-BE93-44A4-8923-673959268E4F}|InventoryManagement.Infrastructure\\InventoryManagement.Infrastructure.csproj|c:\\my-repos\\aspdotnetcore-webapplicationdemo\\inventorymanagement-demo-withcleanarchitecture\\inventorymanagement.infrastructure\\repositories\\equipmentinventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D948B19D-BE93-44A4-8923-673959268E4F}|InventoryManagement.Infrastructure\\InventoryManagement.Infrastructure.csproj|solutionrelative:inventorymanagement.infrastructure\\repositories\\equipmentinventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D948B19D-BE93-44A4-8923-673959268E4F}|InventoryManagement.Infrastructure\\InventoryManagement.Infrastructure.csproj|c:\\my-repos\\aspdotnetcore-webapplicationdemo\\inventorymanagement-demo-withcleanarchitecture\\inventorymanagement.infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D948B19D-BE93-44A4-8923-673959268E4F}|InventoryManagement.Infrastructure\\InventoryManagement.Infrastructure.csproj|solutionrelative:inventorymanagement.infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A450D45A-4971-4C1A-B9D3-2F1E1E0D12FF}|InventoryManagement.Domain\\InventoryManagement.Domain.csproj|c:\\my-repos\\aspdotnetcore-webapplicationdemo\\inventorymanagement-demo-withcleanarchitecture\\inventorymanagement.domain\\entities\\equipmentinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A450D45A-4971-4C1A-B9D3-2F1E1E0D12FF}|InventoryManagement.Domain\\InventoryManagement.Domain.csproj|solutionrelative:inventorymanagement.domain\\entities\\equipmentinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA96BA66-3FB8-492B-B9F2-2CAB206CFCE8}|InventoryManagement.Application\\InventoryManagement.Application.csproj|c:\\my-repos\\aspdotnetcore-webapplicationdemo\\inventorymanagement-demo-withcleanarchitecture\\inventorymanagement.application\\services\\equipmentinventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA96BA66-3FB8-492B-B9F2-2CAB206CFCE8}|InventoryManagement.Application\\InventoryManagement.Application.csproj|solutionrelative:inventorymanagement.application\\services\\equipmentinventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A2018FE-E023-4DD2-9CBD-46335AB1BDCF}|InventoryManagement.API\\InventoryManagement.API.csproj|c:\\my-repos\\aspdotnetcore-webapplicationdemo\\inventorymanagement-demo-withcleanarchitecture\\inventorymanagement.api\\controllers\\equipmentinventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A2018FE-E023-4DD2-9CBD-46335AB1BDCF}|InventoryManagement.API\\InventoryManagement.API.csproj|solutionrelative:inventorymanagement.api\\controllers\\equipmentinventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A2018FE-E023-4DD2-9CBD-46335AB1BDCF}|InventoryManagement.API\\InventoryManagement.API.csproj|c:\\my-repos\\aspdotnetcore-webapplicationdemo\\inventorymanagement-demo-withcleanarchitecture\\inventorymanagement.api\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A2018FE-E023-4DD2-9CBD-46335AB1BDCF}|InventoryManagement.API\\InventoryManagement.API.csproj|solutionrelative:inventorymanagement.api\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A2018FE-E023-4DD2-9CBD-46335AB1BDCF}|InventoryManagement.API\\InventoryManagement.API.csproj|c:\\my-repos\\aspdotnetcore-webapplicationdemo\\inventorymanagement-demo-withcleanarchitecture\\inventorymanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A2018FE-E023-4DD2-9CBD-46335AB1BDCF}|InventoryManagement.API\\InventoryManagement.API.csproj|solutionrelative:inventorymanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA96BA66-3FB8-492B-B9F2-2CAB206CFCE8}|InventoryManagement.Application\\InventoryManagement.Application.csproj|c:\\my-repos\\aspdotnetcore-webapplicationdemo\\inventorymanagement-demo-withcleanarchitecture\\inventorymanagement.application\\dtos\\equipmentinventoryrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA96BA66-3FB8-492B-B9F2-2CAB206CFCE8}|InventoryManagement.Application\\InventoryManagement.Application.csproj|solutionrelative:inventorymanagement.application\\dtos\\equipmentinventoryrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA96BA66-3FB8-492B-B9F2-2CAB206CFCE8}|InventoryManagement.Application\\InventoryManagement.Application.csproj|c:\\my-repos\\aspdotnetcore-webapplicationdemo\\inventorymanagement-demo-withcleanarchitecture\\inventorymanagement.application\\interfaces\\iequipmentinventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA96BA66-3FB8-492B-B9F2-2CAB206CFCE8}|InventoryManagement.Application\\InventoryManagement.Application.csproj|solutionrelative:inventorymanagement.application\\interfaces\\iequipmentinventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A450D45A-4971-4C1A-B9D3-2F1E1E0D12FF}|InventoryManagement.Domain\\InventoryManagement.Domain.csproj|c:\\my-repos\\aspdotnetcore-webapplicationdemo\\inventorymanagement-demo-withcleanarchitecture\\inventorymanagement.domain\\interfaces\\iequipmentinventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A450D45A-4971-4C1A-B9D3-2F1E1E0D12FF}|InventoryManagement.Domain\\InventoryManagement.Domain.csproj|solutionrelative:inventorymanagement.domain\\interfaces\\iequipmentinventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A2018FE-E023-4DD2-9CBD-46335AB1BDCF}|InventoryManagement.API\\InventoryManagement.API.csproj|c:\\my-repos\\aspdotnetcore-webapplicationdemo\\inventorymanagement-demo-withcleanarchitecture\\inventorymanagement.api\\inventorymanagement.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4A2018FE-E023-4DD2-9CBD-46335AB1BDCF}|InventoryManagement.API\\InventoryManagement.API.csproj|solutionrelative:inventorymanagement.api\\inventorymanagement.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D948B19D-BE93-44A4-8923-673959268E4F}|InventoryManagement.Infrastructure\\InventoryManagement.Infrastructure.csproj|c:\\my-repos\\aspdotnetcore-webapplicationdemo\\inventorymanagement-demo-withcleanarchitecture\\inventorymanagement.infrastructure\\inventorymanagement.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D948B19D-BE93-44A4-8923-673959268E4F}|InventoryManagement.Infrastructure\\InventoryManagement.Infrastructure.csproj|solutionrelative:inventorymanagement.infrastructure\\inventorymanagement.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A2018FE-E023-4DD2-9CBD-46335AB1BDCF}|InventoryManagement.API\\InventoryManagement.API.csproj|c:\\my-repos\\aspdotnetcore-webapplicationdemo\\inventorymanagement-demo-withcleanarchitecture\\inventorymanagement.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4A2018FE-E023-4DD2-9CBD-46335AB1BDCF}|InventoryManagement.API\\InventoryManagement.API.csproj|solutionrelative:inventorymanagement.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A2018FE-E023-4DD2-9CBD-46335AB1BDCF}|InventoryManagement.API\\InventoryManagement.API.csproj|c:\\my-repos\\aspdotnetcore-webapplicationdemo\\inventorymanagement-demo-withcleanarchitecture\\inventorymanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4A2018FE-E023-4DD2-9CBD-46335AB1BDCF}|InventoryManagement.API\\InventoryManagement.API.csproj|solutionrelative:inventorymanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA96BA66-3FB8-492B-B9F2-2CAB206CFCE8}|InventoryManagement.Application\\InventoryManagement.Application.csproj|c:\\my-repos\\aspdotnetcore-webapplicationdemo\\inventorymanagement-demo-withcleanarchitecture\\inventorymanagement.application\\inventorymanagement.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DA96BA66-3FB8-492B-B9F2-2CAB206CFCE8}|InventoryManagement.Application\\InventoryManagement.Application.csproj|solutionrelative:inventorymanagement.application\\inventorymanagement.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A450D45A-4971-4C1A-B9D3-2F1E1E0D12FF}|InventoryManagement.Domain\\InventoryManagement.Domain.csproj|c:\\my-repos\\aspdotnetcore-webapplicationdemo\\inventorymanagement-demo-withcleanarchitecture\\inventorymanagement.domain\\inventorymanagement.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A450D45A-4971-4C1A-B9D3-2F1E1E0D12FF}|InventoryManagement.Domain\\InventoryManagement.Domain.csproj|solutionrelative:inventorymanagement.domain\\inventorymanagement.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A2018FE-E023-4DD2-9CBD-46335AB1BDCF}|InventoryManagement.API\\InventoryManagement.API.csproj|c:\\my-repos\\aspdotnetcore-webapplicationdemo\\inventorymanagement-demo-withcleanarchitecture\\inventorymanagement.api\\migrations\\20250603131809_dataadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A2018FE-E023-4DD2-9CBD-46335AB1BDCF}|InventoryManagement.API\\InventoryManagement.API.csproj|solutionrelative:inventorymanagement.api\\migrations\\20250603131809_dataadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A2018FE-E023-4DD2-9CBD-46335AB1BDCF}|InventoryManagement.API\\InventoryManagement.API.csproj|c:\\my-repos\\aspdotnetcore-webapplicationdemo\\inventorymanagement-demo-withcleanarchitecture\\inventorymanagement.api\\migrations\\20250603114955_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A2018FE-E023-4DD2-9CBD-46335AB1BDCF}|InventoryManagement.API\\InventoryManagement.API.csproj|solutionrelative:inventorymanagement.api\\migrations\\20250603114955_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.Infrastructure\\Persistence\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "InventoryManagement.Infrastructure\\Persistence\\AppDbContext.cs",
+              "ToolTip": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.Infrastructure\\Persistence\\AppDbContext.cs",
+              "RelativeToolTip": "InventoryManagement.Infrastructure\\Persistence\\AppDbContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwBMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T11:02:50.009Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20250603131809_DataAdded.cs",
+              "DocumentMoniker": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.API\\Migrations\\20250603131809_DataAdded.cs",
+              "RelativeDocumentMoniker": "InventoryManagement.API\\Migrations\\20250603131809_DataAdded.cs",
+              "ToolTip": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.API\\Migrations\\20250603131809_DataAdded.cs",
+              "RelativeToolTip": "InventoryManagement.API\\Migrations\\20250603131809_DataAdded.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T13:18:09.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20250603114955_InitialMigration.cs",
+              "DocumentMoniker": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.API\\Migrations\\20250603114955_InitialMigration.cs",
+              "RelativeDocumentMoniker": "InventoryManagement.API\\Migrations\\20250603114955_InitialMigration.cs",
+              "ToolTip": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.API\\Migrations\\20250603114955_InitialMigration.cs",
+              "RelativeToolTip": "InventoryManagement.API\\Migrations\\20250603114955_InitialMigration.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T11:49:55.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "InventoryManagement.API\\appsettings.Development.json",
+              "ToolTip": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.API\\appsettings.Development.json",
+              "RelativeToolTip": "InventoryManagement.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-03T11:20:49.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.API\\appsettings.json",
+              "RelativeDocumentMoniker": "InventoryManagement.API\\appsettings.json",
+              "ToolTip": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.API\\appsettings.json",
+              "RelativeToolTip": "InventoryManagement.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-03T11:16:40.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.API\\Program.cs",
+              "RelativeDocumentMoniker": "InventoryManagement.API\\Program.cs",
+              "ToolTip": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.API\\Program.cs",
+              "RelativeToolTip": "InventoryManagement.API\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T11:12:57.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ErrorHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.API\\Middleware\\ErrorHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "InventoryManagement.API\\Middleware\\ErrorHandlingMiddleware.cs",
+              "ToolTip": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.API\\Middleware\\ErrorHandlingMiddleware.cs",
+              "RelativeToolTip": "InventoryManagement.API\\Middleware\\ErrorHandlingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T11:12:08.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InventoryManagement.API.csproj",
+              "DocumentMoniker": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.API\\InventoryManagement.API.csproj",
+              "RelativeDocumentMoniker": "InventoryManagement.API\\InventoryManagement.API.csproj",
+              "ToolTip": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.API\\InventoryManagement.API.csproj",
+              "RelativeToolTip": "InventoryManagement.API\\InventoryManagement.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-03T11:11:47.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EquipmentInventoryController.cs",
+              "DocumentMoniker": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.API\\Controllers\\EquipmentInventoryController.cs",
+              "RelativeDocumentMoniker": "InventoryManagement.API\\Controllers\\EquipmentInventoryController.cs",
+              "ToolTip": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.API\\Controllers\\EquipmentInventoryController.cs",
+              "RelativeToolTip": "InventoryManagement.API\\Controllers\\EquipmentInventoryController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAswD8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T11:10:39.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EquipmentInventoryService.cs",
+              "DocumentMoniker": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.Application\\Services\\EquipmentInventoryService.cs",
+              "RelativeDocumentMoniker": "InventoryManagement.Application\\Services\\EquipmentInventoryService.cs",
+              "ToolTip": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.Application\\Services\\EquipmentInventoryService.cs",
+              "RelativeToolTip": "InventoryManagement.Application\\Services\\EquipmentInventoryService.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAswDIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T11:08:42.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IEquipmentInventoryService.cs",
+              "DocumentMoniker": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.Application\\Interfaces\\IEquipmentInventoryService.cs",
+              "RelativeDocumentMoniker": "InventoryManagement.Application\\Interfaces\\IEquipmentInventoryService.cs",
+              "ToolTip": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.Application\\Interfaces\\IEquipmentInventoryService.cs",
+              "RelativeToolTip": "InventoryManagement.Application\\Interfaces\\IEquipmentInventoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T11:07:39.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EquipmentInventoryRequestDto.cs",
+              "DocumentMoniker": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.Application\\DTOs\\EquipmentInventoryRequestDto.cs",
+              "RelativeDocumentMoniker": "InventoryManagement.Application\\DTOs\\EquipmentInventoryRequestDto.cs",
+              "ToolTip": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.Application\\DTOs\\EquipmentInventoryRequestDto.cs",
+              "RelativeToolTip": "InventoryManagement.Application\\DTOs\\EquipmentInventoryRequestDto.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAywCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T11:06:41.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "InventoryManagement.Application.csproj",
+              "DocumentMoniker": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.Application\\InventoryManagement.Application.csproj",
+              "RelativeDocumentMoniker": "InventoryManagement.Application\\InventoryManagement.Application.csproj",
+              "ToolTip": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.Application\\InventoryManagement.Application.csproj",
+              "RelativeToolTip": "InventoryManagement.Application\\InventoryManagement.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-03T11:06:15.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EquipmentInventoryRepository.cs",
+              "DocumentMoniker": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.Infrastructure\\Repositories\\EquipmentInventoryRepository.cs",
+              "RelativeDocumentMoniker": "InventoryManagement.Infrastructure\\Repositories\\EquipmentInventoryRepository.cs",
+              "ToolTip": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.Infrastructure\\Repositories\\EquipmentInventoryRepository.cs",
+              "RelativeToolTip": "InventoryManagement.Infrastructure\\Repositories\\EquipmentInventoryRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T11:04:58.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InventoryManagement.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.Infrastructure\\InventoryManagement.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "InventoryManagement.Infrastructure\\InventoryManagement.Infrastructure.csproj",
+              "ToolTip": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.Infrastructure\\InventoryManagement.Infrastructure.csproj",
+              "RelativeToolTip": "InventoryManagement.Infrastructure\\InventoryManagement.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-03T11:02:31.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IEquipmentInventoryRepository.cs",
+              "DocumentMoniker": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.Domain\\Interfaces\\IEquipmentInventoryRepository.cs",
+              "RelativeDocumentMoniker": "InventoryManagement.Domain\\Interfaces\\IEquipmentInventoryRepository.cs",
+              "ToolTip": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.Domain\\Interfaces\\IEquipmentInventoryRepository.cs",
+              "RelativeToolTip": "InventoryManagement.Domain\\Interfaces\\IEquipmentInventoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T11:01:40.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EquipmentInventory.cs",
+              "DocumentMoniker": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.Domain\\Entities\\EquipmentInventory.cs",
+              "RelativeDocumentMoniker": "InventoryManagement.Domain\\Entities\\EquipmentInventory.cs",
+              "ToolTip": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.Domain\\Entities\\EquipmentInventory.cs",
+              "RelativeToolTip": "InventoryManagement.Domain\\Entities\\EquipmentInventory.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA1wC8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T10:57:39.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "InventoryManagement.Domain.csproj",
+              "DocumentMoniker": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
+              "RelativeDocumentMoniker": "InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
+              "ToolTip": "C:\\My-Repos\\AspDotNetCore-WebApplicationDemo\\InventoryManagement-Demo-WithCleanArchitecture\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
+              "RelativeToolTip": "InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-03T10:55:21.285Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
