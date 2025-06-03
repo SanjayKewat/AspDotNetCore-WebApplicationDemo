@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace InventoryManagement.Infrastructure.Repositories
 {
-    
+
     public class EquipmentInventoryRepository : IEquipmentInventoryRepository
     {
         private readonly AppDbContext _context;
@@ -22,9 +22,10 @@ namespace InventoryManagement.Infrastructure.Repositories
             {
                 var equipmentInventories = await _context.EquipmentInventories
                                              .FromSqlRaw("EXEC [InventoryManagement].[sp_GetAllEquipmentInventories]")
-                                             .ToListAsync();  
+                                             .AsNoTracking()
+                                             .ToListAsync();
 
-                return equipmentInventories;  
+                return equipmentInventories;
             }
             catch (Exception ex)
             {

@@ -15,15 +15,15 @@ namespace InventoryManagement.Domain.Entities
 
         [Required]
         [StringLength(10)]
-        public string ItemCode { get; set; } = null!;
+        public string ItemCode { get; set; }
 
         [Required]
         [StringLength(50)]
-        public string ItemName { get; set; } = null!;
+        public string ItemName { get; set; }
 
         [Required]
         [StringLength(50)]
-        public string Make { get; set; } = null!;
+        public string Make { get; set; }
 
         [StringLength(50)]
         public string? ItemModel { get; set; }
@@ -35,7 +35,7 @@ namespace InventoryManagement.Domain.Entities
         [ForeignKey(nameof(ItemGroup))]
         public int ItemGroupId { get; set; }
 
-        public ItemGroup ItemGroup { get; set; } = null!;
+        public ItemGroup ItemGroup { get; set; }
 
         [Required]
         public bool IsVoid { get; set; }
@@ -52,7 +52,7 @@ namespace InventoryManagement.Domain.Entities
 
         [Required]
         [StringLength(50)]
-        public string ItemGroupName { get; set; } = null!;
+        public string ItemGroupName { get; set; }
 
         [Required]
         public bool IsVoid { get; set; }
