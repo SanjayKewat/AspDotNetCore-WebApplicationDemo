@@ -358,3 +358,10 @@ DotCoreEcommAppWithAng15/API/bin/Debug/net8.0/API.pdb
 DotCoreEcommAppWithAng15/API/bin/Debug/net8.0/API.exe
 DotCoreEcommAppWithAng15/API/bin/Debug/net8.0/API.dll
 DotCoreEcommAppWithAng15/API/bin/Debug/net8.0/API.deps.json
+/CleanMovie.Domain/CleanMovie.API/bin/Debug/net7.0
+/CleanMovie.Domain/CleanMovie.API/obj
+/CleanMovie.Domain/CleanMovie.Application/bin/Debug/net7.0
+/CleanMovie.Domain/CleanMovie.Infrastructure/bin/Debug/net7.0
+/CleanMovie.Domain/CleanMovie.Application/obj
+/CleanMovie.Domain/CleanMovie.Infrastructure/obj
+/CleanMovie.Domain/.vs/CleanMovie.Domain
