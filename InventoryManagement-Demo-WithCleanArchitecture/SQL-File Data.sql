@@ -7,7 +7,31 @@ STEP (1) => RUN BELOW COMMAND By SELECTING PROJECT "InventoryManagement.API" ON 
 
 */
 
----STEP (2) Execute the endpoint & verify the data by running below script on SSMS
+--STEP (2) => Execute this SP
+CREATE PROCEDURE [InventoryManagement].[sp_GetAllEquipmentInventories]
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    SELECT 
+        ei.Id,
+        ei.ItemCode,
+        ei.ItemName,
+        ei.Make,
+        ei.ItemModel,
+        ei.TrackingMethod,
+        ei.ItemGroupId,
+        ei.IsVoid,
+        ig.Id AS ItemGroup_Id,
+        ig.ItemGroupName,
+        ig.IsVoid AS ItemGroup_IsVoid
+    FROM [InventoryManagement].[EquipmentInventory] ei
+    INNER JOIN [InventoryManagement].[ItemGroup] ig
+        ON ei.ItemGroupId = ig.Id
+END
+GO
+
+---STEP (3) Execute the endpoint & verify the data by running below script on SSMS
 SELECT *  FROM [InventoryManagement].[EquipmentInventory]
 SELECT *  FROM [InventoryManagement].[ItemGroup]
 

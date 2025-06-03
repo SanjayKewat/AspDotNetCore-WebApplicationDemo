@@ -15,13 +15,31 @@ namespace InventoryManagement.Infrastructure.Repositories
             _context = context;
         }
 
-        public async Task<IEnumerable<EquipmentInventory>> GetAllAsync()
+        //Getting Data using store procedure
+        public async Task<List<EquipmentInventory>> GetAllAsync()
         {
-            return await _context.EquipmentInventories
-                .Include(e => e.ItemGroup)
-                .AsNoTracking()
-                .ToListAsync();
+            try
+            {
+                var equipmentInventories = await _context.EquipmentInventories
+                                             .FromSqlRaw("EXEC [InventoryManagement].[sp_GetAllEquipmentInventories]")
+                                             .ToListAsync();  
+
+                return equipmentInventories;  
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("An error occurred while retrieving equipment inventories.", ex);
+            }
         }
+
+        //Getting Data using EF Core
+        //public async Task<IEnumerable<EquipmentInventory>> GetAllAsync()
+        //{
+        //    return await _context.EquipmentInventories
+        //        .Include(e => e.ItemGroup)
+        //        .AsNoTracking()
+        //        .ToListAsync();
+        //}
 
         public async Task<EquipmentInventory?> GetByIdAsync(int id)
         {

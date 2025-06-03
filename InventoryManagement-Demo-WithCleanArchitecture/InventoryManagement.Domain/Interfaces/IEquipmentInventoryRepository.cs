@@ -7,7 +7,9 @@ namespace InventoryManagement.Domain.Interfaces
     /// </summary>
     public interface IEquipmentInventoryRepository
     {
-        Task<IEnumerable<EquipmentInventory>> GetAllAsync();
+        //Getting Data using EF Core
+        //Task<IEnumerable<EquipmentInventory>> GetAllAsync();
+        Task<List<EquipmentInventory>> GetAllAsync();
         Task<EquipmentInventory?> GetByIdAsync(int id);
         Task<EquipmentInventory> AddAsync(EquipmentInventory entity);
         Task UpdateAsync(EquipmentInventory entity);
